@@ -19,7 +19,8 @@ let
   version = "0.5.1";
 
   src = fetchPypi {
-    inherit pname version;
+    pname = "cmsis_pack_manager";
+    inherit version;
     sha256 = "sha256-2pKGJlPubR+C4UhdCuMDR9GG2wQOaP6YkMXxeAcaRkk=";
   };
 
