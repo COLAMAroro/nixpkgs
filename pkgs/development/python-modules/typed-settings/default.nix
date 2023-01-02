@@ -18,8 +18,9 @@ buildPythonPackage rec {
   disabled = pythonOlder "3.7";
 
   src = fetchPypi {
-    inherit pname version;
-    sha256 = "sha256-o0cPD/7/DS9aUtLDA1YhxKrxUDE7Elv4B7zlKVSsFJQ=";
+    pname = "typed_settings";
+    inherit version;
+    hash = "sha256-o0cPD/7/DS9aUtLDA1YhxKrxUDE7Elv4B7zlKVSsFJQ=";
   };
 
   nativeBuildInputs = [
