@@ -19,7 +19,7 @@ buildPythonPackage rec {
     owner = "KristianOellegaard";
     repo = pname;
     rev = "refs/tags/${version}";
-    hash = "sha256-9AspaARz6ww5Y2nTDji4RaJ4+OWF13c3DSEebrGS8eM=";
+    hash = "sha256-f87dgB2pDc+A0h41FX13qTj6Zzw5I4QwsDoC6yPkvAE=";
     leaveDotGit = true;
   };
 
