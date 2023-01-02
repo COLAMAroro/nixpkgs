@@ -13,7 +13,8 @@ buildPythonPackage rec {
   disabled = pythonOlder "3.7";
 
   src = fetchPypi {
-    inherit pname version;
+    pname = "upb_lib";
+    inherit version;
     hash = "sha256-/TNKsno0JJtxBY9HCPQfp7OhlfkOP6sJI51rgp2ujDg=";
   };
 
