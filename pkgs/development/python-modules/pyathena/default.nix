@@ -16,8 +16,7 @@ buildPythonPackage rec {
   disabled = pythonOlder "3.7";
 
   src = fetchPypi {
-    pname = "PyAthena";
-    inherit version;
+    inherit pname version;
     hash = "sha256-59NH4HIhgDOxwgSUJq71ewpQTn2sbpNNT9Q3nj8qJss=";
   };
 
