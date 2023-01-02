@@ -10,7 +10,8 @@ buildPythonPackage rec {
   version = "0.4.0";
 
   src = fetchPypi {
-    inherit pname version;
+    pname = "sphinx_argparse";
+    inherit version;
     sha256 = "sha256-4PNBhOtW8S+s53T7yHuICr25AXoJmNHsVZsmfpaX5Ek=";
   };
 
